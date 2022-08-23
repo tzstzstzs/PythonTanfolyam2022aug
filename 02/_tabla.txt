@@ -1,4 +1,18 @@
 Virtuális tábla
 ===============
 
+if inp == 'y' or inp == 'Y' or inp == 'yes':    # <- egyszerűbben?
 
+if inp in ['y', 'Y', 'yes']:
+    ...
+
+----------
+
+folyt.: 17.41-kor
+
+----------
+
+else if
+elseif
+elsif
+elif
