@@ -2,10 +2,10 @@
 """
     udv.py Batman
     Denevérveszély!
-    
+
     udv.py Laci
     Hello Laci!
-    
+
     else if -> elif
 """
 
@@ -22,7 +22,7 @@ def hello(nev):
 def main():
     name = sys.argv[1]
     hello(name)
-    
-    
+
+
 if __name__ == "__main__":
     main()

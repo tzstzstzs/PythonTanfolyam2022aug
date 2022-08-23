@@ -5,7 +5,7 @@ def main():
     n2 = int(input("1. szám: "))
     result = n1 + n2
     print(result)
-    
-    
+
+
 if __name__ == "__main__":
     main()

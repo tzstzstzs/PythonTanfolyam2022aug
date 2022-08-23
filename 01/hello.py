@@ -9,7 +9,7 @@ def main():
         print("nagyon igaz")
     #
     print("END")
-    
-    
+
+
 if __name__ == "__main__":
     main()
