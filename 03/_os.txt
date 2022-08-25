@@ -1,0 +1,33 @@
+os és os.path modulok
+=====================
+
+Kell a vizsgára!
+
+https://docs.python.org/3/library/os.html
+
+    import os
+
+
+    os.mkdir("hello")
+    os.rmdir("hello")
+
+    os.listdir(".")
+
+
+https://docs.python.org/3/library/os.path.html
+
+    import os
+
+    # `import os.path` -ra nincs szükség!
+    # `import os` után az `os.path` is elérhető
+
+    os.path.exists()
+    os.path.isfile()
+    os.path.isdir()
+
+
+Feladat:
+
+    Írjunk egy programot, ami kiírja az aktuális könyvtár
+    tartalmát. Először a könyvtárakat írjuk ki (ábécésorrendben),
+    majd utána a fájlokat (szintén ábécésorrendben).
