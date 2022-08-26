@@ -1,5 +1,4 @@
 
-
 class Empty:
     pass
 

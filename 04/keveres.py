@@ -1,6 +1,6 @@
 """
-sorted:
--------
+sorted():
+---------
 * kap egy listát
 * listáról készít egy másolatot
 * a másolatot rendezi
