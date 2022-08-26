@@ -1,9 +1,15 @@
 
-from utils import duplaz, is_palindrome
+
+class Empty:
+    pass
+
+class MyClass:
+    def hello(self):
+        return "hello world"
 
 def main():
-    print(duplaz(8))
-    print(is_palindrome("anna"))
+    o = MyClass()
+    print(o.hello())
 
 ##############################################################################
 

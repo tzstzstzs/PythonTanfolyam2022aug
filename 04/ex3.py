@@ -1,9 +1,12 @@
 
-from utils import duplaz, is_palindrome
+# from pygyak import is_prime, hello
+
+import pygyak
 
 def main():
-    print(duplaz(8))
-    print(is_palindrome("anna"))
+    print(pygyak.is_prime(5))
+
+    print(pygyak.hello())
 
 ##############################################################################
 

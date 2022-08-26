@@ -1,2 +1,16 @@
 Virtuális tábla
 ===============
+
+PEP8
+
+folyt.: 17.47
+
+---
+
+Linux:
+
+    $ pip install pytest --user -U
+
+Windows:
+
+    pip install pytest

@@ -1,9 +1,14 @@
 
-from utils import duplaz, is_palindrome
+class Proba:
+    i = 123
+
+    def hello(self):
+        print("hello")
+
 
 def main():
-    print(duplaz(8))
-    print(is_palindrome("anna"))
+    print(Proba.i)
+    p = Proba()
 
 ##############################################################################
 
