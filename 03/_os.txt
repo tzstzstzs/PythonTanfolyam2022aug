@@ -8,10 +8,10 @@ https://docs.python.org/3/library/os.html
     import os
 
 
-    os.mkdir("hello")
-    os.rmdir("hello")
+    os.mkdir("hello")           mappa létrehozása
+    os.rmdir("hello")           (üres) mappa törlése
 
-    os.listdir(".")
+    os.listdir(".")             adott mappa tartalma
 
 
 https://docs.python.org/3/library/os.path.html
@@ -21,9 +21,11 @@ https://docs.python.org/3/library/os.path.html
     # `import os.path` -ra nincs szükség!
     # `import os` után az `os.path` is elérhető
 
-    os.path.exists()
-    os.path.isfile()
-    os.path.isdir()
+    os.path.exists()            Létezik a bejegyzés?
+    os.path.isfile()            A bejegyzés egy állomány?
+    os.path.isdir()             A bejegyzés egy mappa?
+
+    os.remove()                 file törlése
 
 
 Feladat:
