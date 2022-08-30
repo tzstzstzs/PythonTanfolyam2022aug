@@ -1,16 +1,15 @@
-#!/usr/bin/env python3
 
 def main():
     a = 5
-    b = 2
+    b = 0
 
     try:
         result = a / b
         print(f"{result=}")
     except:
-        print("Hopp! Kivétel!")
+        print("Hopp! Kivetel!")
     else:
-        print("minden oké")
+        print("minden oke")
     finally:
         print("END")
 

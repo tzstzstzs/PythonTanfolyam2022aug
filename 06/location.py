@@ -6,13 +6,17 @@ North, South, East, or West for a location and have the user
 try again if a proper location is not entered or
 print the location if the location is North, South, East, or West.
 
-location = ["North", "South", "West", "East"]
-response = input("Enter North, South, West, or East for a location: ")
 """
 
 def main():
-    # TODO
-    pass
+    location = ["North", "South", "West", "East"]
+    while True:
+        response = input("Enter North, South, West, or East for a location: ")
+        if response not in location:
+            print("Try again")
+        else:
+            print(response)
+            break
 
 ##############################################################################
 

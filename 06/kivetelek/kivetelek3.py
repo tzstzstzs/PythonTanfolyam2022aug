@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 
 """
 * saját kivétel osztály létrehozása
@@ -11,10 +10,10 @@ class NullavalValoOsztas(Exception):
 
 def main():
     a = 5
-    b = 2
+    b = 0
     try:
-        if b ==0:
-            raise NullavalValoOsztas("nullával nem lehet osztani")
+        if b == 0:
+            raise NullavalValoOsztas("nullaval nem lehet osztani")
         #
         result = a / b
         print(result)

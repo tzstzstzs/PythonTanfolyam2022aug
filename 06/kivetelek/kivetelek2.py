@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 
 """
 Több finally ág nem lehet, csak max. 1 db.
@@ -10,7 +9,7 @@ A try után vagy except jön, vagy finally. Különben hiba.
 
 def main():
     a = 5
-    b = 2
+    b = 0
     try:
         result = a / b
         print(result)
