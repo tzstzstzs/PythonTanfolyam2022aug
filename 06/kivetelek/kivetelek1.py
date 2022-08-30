@@ -2,7 +2,7 @@
 
 def main():
     a = 5
-    b = 0
+    b = 2
 
     try:
         result = a / b

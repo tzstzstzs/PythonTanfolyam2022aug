@@ -1,8 +1,6 @@
 
-
 def my_func1(t):
     return t[-1]
-
 
 def f1():
     data = [
@@ -15,6 +13,7 @@ def f1():
     result = sorted(data, key=lambda t: t[-1])
     print(result)
 
+###
 
 def my_func2(user):
     return int(user.split(":")[0])
@@ -25,16 +24,18 @@ def f2():
     result = sorted(users, key=my_func2, reverse=True)
     print(result)
 
+###
 
 def my_func3(sor):
     return sor[1]
-
 
 def f3():
     matrix = [ [2, 6], [1, 3], [5, 4] ]
     # result = sorted(matrix, key=my_func3)
     result = sorted(matrix, key=lambda sor: sor[1])
     print(result)
+
+###
 
 def main():
     # f1()
