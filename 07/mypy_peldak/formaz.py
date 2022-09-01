@@ -1,7 +1,7 @@
 
 PI = 3.14159
 
-def hello(name, color, obj):
+def hello(name: str, color: str, obj: str) -> None:
     # geza, kek az eg!
     # C-ben:
     # printf("%s, %s az %s!\n", name, color, obj);
@@ -16,7 +16,7 @@ def hello(name, color, obj):
     # print(f"1 + 1 = {value}")
     # print(f"{name}, {color} az {obj}!")
 
-def main():
+def main() -> None:
     hello("geza", "kek", "eg")
     print("-" * 40)
     hello("peti", "piros", "auto")

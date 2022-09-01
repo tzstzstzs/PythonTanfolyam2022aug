@@ -3,12 +3,12 @@
 import math
 
 
-def distance(p1, p2):
+def distance(p1: tuple[int, int], p2: tuple[int, int]) -> float:
     # TODO...
-    return
+    return 5.83
 
 
-def main():
+def main() -> None:
     p1 = (1, 2)
     p2 = (6, 5)
     print('A ket pont kozti tavolsag:', distance(p1, p2))

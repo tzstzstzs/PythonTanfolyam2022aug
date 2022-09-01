@@ -1,10 +1,10 @@
+#!/usr/bin/env python3
 
-def add(a: int, b: int) -> int:
-    return a + b
+import secret
 
 def main():
-    print(add(2, 3))
-    # print(add("aa", "bb"))
+    result: int = secret.get_value([5, 7, 3])
+    # value = complicated()  # type: ignore
 
 ##############################################################################
 

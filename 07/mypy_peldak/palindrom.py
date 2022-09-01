@@ -1,9 +1,9 @@
 
-def is_palindrome(s):
+def is_palindrome(s: str) -> bool:
     return s == s[::-1]
 
 
-def main():
+def main() -> None:
     s = "apa"
     print(f"{s} palindrom?", is_palindrome(s))
 

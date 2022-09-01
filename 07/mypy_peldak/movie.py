@@ -1,10 +1,10 @@
 
-def get_movie_info():
+def get_movie_info() -> tuple[str, int, float]:
     # kapcsolódás egy ab.-hoz
     # visszaadunk egy sort (rekordot)
     return ("Total Recall", 1990, 7.5)
 
-def main():
+def main() -> None:
     title, year, score = get_movie_info()
     print(title, year, score)
 

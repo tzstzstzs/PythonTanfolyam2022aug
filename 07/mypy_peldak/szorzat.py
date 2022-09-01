@@ -1,5 +1,5 @@
 
-def product(li):
+def product(li: list[int]) -> int:
     p = 1
     for n in li:
         p *= n
@@ -7,7 +7,7 @@ def product(li):
     return p
 
 
-def main():
+def main() -> None:
     numbers = [3, 2, 5, 2]
     # numbers = []
     result = product(numbers)

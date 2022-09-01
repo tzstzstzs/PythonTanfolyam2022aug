@@ -27,7 +27,7 @@
 # a 'sok' szót használjuk.
 # Vagyis donuts(5) visszatérési értéke 'Fánkok száma: 5', míg
 # donuts(23) visszatérési értéke 'Fánkok száma: sok'
-def donuts(count):
+def donuts(count: int) -> str:
     if count < 10:
         return f"Fánkok száma: {count}"
     else:
@@ -73,7 +73,7 @@ def mix_up(a, b):
 
 # Egy egyszerű teszt fv. Kiírja az egyes fv.-ek visszaadott értékét, ill.
 # azt is, hogy mit kellett volna visszaadniuk.
-def test(got, expected):
+def test(got: str, expected: str) -> None:
     if got == expected:
         prefix = ' OK '
     else:
@@ -84,7 +84,7 @@ def test(got, expected):
 # Ezt ne módosítsuk.
 # A main() fv. meghívja a fenti fv.-eket különféle paraméterekkel,
 # s a test() fv. segítségével megnézi, hogy az eredmények helyesek-e.
-def main():
+def main() -> None:
     print('donuts')
     # Minden egyes sor meghívja a donuts() fv.-t s összehasonlítja a visszaadott
     # értéket a várt eredménnyel.

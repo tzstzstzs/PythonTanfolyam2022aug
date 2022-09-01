@@ -1,9 +1,9 @@
 
 import pyutils
 
-def main():
+def main() -> None:
     url = "https://www.python.org/"
-    html = pyutils.get_page(url)
+    html: str = pyutils.get_page(url)
     print(html)
 
 ##############################################################################
